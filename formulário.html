@@ -7,6 +7,123 @@
     <link rel="stylesheet" href="CSSgeral.css">
 </head>
 <body>
+
+    <main>
+        <h1>Formulário</h1>
+        <form action="" method="">
+            <fieldset>
+                
+                <legend><h2>Adoção - Gatos</h2></legend> <!--NOME-->
+                <label for="nome" class="nome">Qual seu nome ?*</label>
+                <input type="text" class="inpNome" placeholder="Nome Completo" required>
+                <br>
+                <label for="telefone" class="nome" >Qual seu telefone para contato ?*</label><!--telefone-->
+                <input type="tel" class="inpTele" required>
+                <br>
+                <label for="animal">Qual animal você tem interesse em adotar?*</label><!--Animal escolhido-->
+                <input type="text" class="inpAnimal" required>
+                <br>
+                <label for="idade">Qual a sua idade? Se for menor de idade, seus responsáveis devem responder o formulário!*</label><!--Qual sua idade?-->
+                <input type="number" class='inpIdade' required>
+                <br>
+                
+                <div>
+                    <label for="concorda?">Todos da sua residência, concordam com a adoção?*</label><!--Todos concordam com a adocão-->
+                    <br>
+                    <label for="sim">Sim</label>
+                    <input type="checkbox">
+                    <br>
+                    <label for="nao">Não</label>
+                    <input type="checkbox">
+                </div>
+                <br>
+                <label for="outrosAnimais">Você tem outros animais? Se sim, quantos e quais?*</label>
+                <input type="text" required>
+                <br>
+                <div>
+                    <label for="castrados???">São castrados e vacinados?</label><!--Castrados ???-->
+                    <br>
+                    <label for="sim">Sim</label>
+                    <input type="checkbox">
+                    <br>
+                    <label for="nao">Não</label>
+                    <input type="checkbox">
+                </div>
+                <label for="TipoDeMoradia">Você mora em casa ou apartamento? Próprio ou alugado?*</label>
+                <input type="text" class="moradia" required>
+                <div>
+                    <label for="telas?">A sua residência tem telas?*</label><!--TELAS ???-->
+                    <br>
+                    <label for="sim">Sim</label>
+                    <input type="checkbox">
+                    <br>
+                    <label for="nao">Não</label>
+                    <input type="checkbox">
+                </div>
+                <div class="Voltas">
+                    <label for="voltas">Você deixaria o gato ter acesso a rua? Dar "voltinhas"?*</label><!--voltinhas ???-->
+                    <br>
+                    <label for="sim">Sim</label>
+                    <input type="checkbox">
+                    <br>
+                    <label for="nao">Não</label>
+                    <input type="checkbox">
+                </div>
+                <div class="endereço">
+                    <label for="endereço">Qual seu endereço completo? Com nome da rua, bairro, CEP, número da casa e ponto de referência.</label>
+                    <br>
+                    <input type="text" class="inpEndereço" required>
+                </div>
+                <br>
+                <div class="renda">
+                    <label for="renda">Qual a sua renda? *</label>
+                    <input type="text" required>
+                </div>
+                <div class="condições">
+                    <label for="condições">Você tem condições físicas, mentais e financeiras de manter um animal? Uma boa ração? Visitas ao veterinário? Castração? Passeios?</label>
+                    <input type="text" class="inpCondições" required>
+                </div>
+                <div class="castração">
+                    <label for="castração">A castração e vacinação do animal é OBRIGATÓRIA, você concorda com isso?*</label>
+                    <br>
+                    <label for="CAS-sim">Sim</label>
+                    <input type="checkbox">
+                    <br>
+                    <label for="CAS-não">Não</label>
+                    <input type="checkbox">
+                </div>
+                <div class="taxa">
+                    <label for="taxaAdoção">Existe uma taxa de adoção colaborativa de R$30,00. Você concorda em contribuir?</label>
+                    <br>
+                    <label for="taxa-sim">Sim</label>
+                    <input type="checkbox">
+                    <br>
+                    <label for="taxa-não">Não</label>
+                    <input type="checkbox">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend><h2>Favor enviar os seguintes documentos</h2></legend>
+                <div>
+                    <br>
+                    <p> 
+                        * Foto do RG;
+                        * Foto do comprovante de renda;
+                        * Foto do local onde o animal irá ficar (terreno, casa, canil...);
+                        * Foto das TELAS;
+                        * Se tiver outros animais, foto dos mesmos e das suas carteiras de vacinação. 
+                    </p>
+                    <button>Selecione os arquivos</button>
+                </div>
+                <br>
+            </fieldset>
+                <div class="BotõesFinais">
+                    <input type="submit" value="Enviar formulário">
+                    <input type="reset" value="Limpar formulário">
+                </div>
+            
+        </form>
+    </main>
     
 </body>
 </html>
