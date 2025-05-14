@@ -1,0 +1,57 @@
+.main-form{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    border: 2px black solid;
+}
+.recadoDaCapra h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 48px;
+}
+.recadoDaCapra ul {
+    padding: 10px;
+    color:  red;
+}
+.field-form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    flex-direction: column;
+}
+fieldset div {
+    padding: 10px;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 15px;
+    flex-direction: column;
+}
+.inptext{
+    width: 50%;
+    padding: 5px;
+}
+.checkbox{
+    padding: 5px;
+}
+div input{
+    font-size: 18px;
+}
+.fild2{
+     display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    flex-direction: column;
+}
+.BotõesFinais{
+    font-size: 24px;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+.espiãoChines{
+    font-size: 24px;
+    margin: 20px;
+}
