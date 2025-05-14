@@ -1,8 +1,11 @@
-
+ @font-face {
+    font-family: 'jsMath-cmti10 cmti10';
+    src: url(/style/css/fontes/Joan-Regular.ttf);
+}
 
 
 .container-3primeiros{
-    margin: 25px;
+    margin: 10px;
 }
 
 .container-3primeiros div{
@@ -11,7 +14,8 @@
     border-radius: 10px;
     margin: 10px;
     color: white;
-    font-family: 'Awesome';
+    font-family:;
+    
 }
 
 .container-3primeiros div h1{
