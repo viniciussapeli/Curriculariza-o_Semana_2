@@ -3,24 +3,31 @@
 }
 
 header {
+    padding:5px;
     align-items: center;
     background-color: rgb(190, 79, 190);
     justify-content: space-between; 
-    display: flex;
+    display:flex;
     position: sticky;
     top: 0;
     z-index: 2;
-    font-size: 1em;
+    font-size: 3em;
 }
 header a {
     text-decoration: none;
-    font-size: 50px;
     color: rgb(80, 23, 80);
     padding: 10px;
     padding: 10px;
 }
+.logo {
+    font-size: 80px;
+}
+nav {
+    font-size: 50px;
+}
 
 .sociais {
-    display: block;
     float: right;
 }
+
+
