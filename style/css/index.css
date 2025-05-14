@@ -1,26 +1,61 @@
  @font-face {
-    font-family: 'jsMath-cmti10 cmti10';
+    font-family: 'Joan-Regular';
     src: url(/style/css/fontes/Joan-Regular.ttf);
 }
 
-
+*{
+    font-family: 'Joan-Regular';
+}
 .container-3primeiros{
     margin: 10px;
 }
 
 .container-3primeiros div{
-    background-color: blueviolet;
+    background-color:#9549C0;
     padding: 20px ;
     border-radius: 10px;
     margin: 10px;
-    color: white;
-    font-family:;
-    
+    color: #ffffff;
 }
 
 .container-3primeiros div h1{
-margin: 0 0 10px 10px;
-
+margin: 0px 0px 10px 10px;
 }
+
+.container_sobre{
+    background-color: #641293;
+    padding: 20px ;
+    border-radius: 10px;
+    margin: 50px 10px 10px 10px;
+    color: white;
+ }
+
+.container_sobre h1{
+    margin: 0px 0px 10px 10px;
+}
+
+.container-not-ad{
+    display: flex;
+    justify-content: center;
+}
+
+.container-not-ad div{
+    flex-direction: row ;
+    background-color:#9549C0;
+    padding: 20px ;
+    border-radius: 10px;
+    margin: 10px;
+    width: 40%;
+}
+
+.container-not-ad
+
+
+
+.container-not-ad a{
+    text-decoration: none;
+    color: white;
+}
+
 
 
