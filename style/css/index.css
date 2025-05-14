@@ -1,0 +1,22 @@
+
+
+
+.container-3primeiros{
+    margin: 25px;
+}
+
+.container-3primeiros div{
+    background-color: blueviolet;
+    padding: 20px ;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    font-family: 'Awesome';
+}
+
+.container-3primeiros div h1{
+margin: 0 0 10px 10px;
+
+}
+
+
