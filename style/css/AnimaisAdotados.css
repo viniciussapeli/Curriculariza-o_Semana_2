@@ -1,0 +1,27 @@
+.titulo{
+    background-color: blueviolet;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin: 50px;
+    border-radius: 20px;
+    height: 50px;
+    color: white;
+}
+
+.imagem{
+    height: 400px;
+    width: 300px;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.foto_e_historia{
+    background-color: blueviolet;
+    border-radius: 50px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
