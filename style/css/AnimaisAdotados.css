@@ -25,3 +25,19 @@
     align-items: center;
     gap: 20px;
 }
+
+.texto{
+    color: white;
+    align-items: normal;
+    margin-right: 75px;
+    text-align: justify;
+}
+
+
+.nomeAnimal{
+    margin-bottom: 50px;
+}
+
+p{
+    margin: 10px;
+}
