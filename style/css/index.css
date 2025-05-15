@@ -1,0 +1,111 @@
+ @font-face {
+    font-family: 'Joan-Regular';
+    src: url(/style/css/fontes/Joan-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    font-family: 'Joan-Regular';
+}
+
+.Banner{
+    width: 100%;
+    padding-top: 4px;
+    background-color: #4AC360;
+    text-align: center;
+}
+.Banner img{
+    border-radius: 10px;
+    height: 100%;
+    width: 75%;
+}
+
+.container-3primeiros{
+    margin: 10px;
+}
+
+.container-3primeiros div{
+    background-color:#9549C0;
+    padding: 20px ;
+    border-radius: 10px;
+    margin: 50px 10% 50px 10%;
+    color: #ffffff;
+    width: 80%;
+}
+
+.container-3primeiros div h1{
+margin: 0px 0px 10px 10px;
+}
+
+.container_sobre{
+    background-color: #641293;
+    padding: 20px ;
+    border-radius: 10px;
+    margin: 50px 10px 50px 10px;
+    color: white;
+ }
+
+.container_sobre h1{
+    margin: 0px 0px 10px 10px;
+}
+
+.container-not-ad{
+    display: flex;
+    justify-content: center;
+}
+
+.container-not-ad div{
+    flex-direction: row ;
+    background-color:#9549C0;
+    padding: 20px ;
+    border-radius: 10px;
+    margin: 10px 10px 50px 10px;
+    width: 40%;
+    font-size: 40px;
+}
+
+.container-not-ad a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container-not-ad .Noticias_redireção{
+text-align: center;
+}
+
+.container-not-ad .Animais_adotados{
+text-align: center;
+}
+
+.container-grafico{
+    text-align: center;
+}
+
+.container-grafico img{
+   border-radius: 10px;
+}
+
+.maus-tratos{
+    background-color: #4AC360;
+    padding: 20px ;
+    border-radius: 10px;
+    margin: 50px 10px 50px 10px;
+    color: white;
+}
+
+.maus-tratos p{
+    margin-bottom: 10px;
+}
+
+.maus-tratos a{
+    padding: 7px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #641293;
+    border-radius: 10px;
+}
+
+.maus-tratos .saiba-mais{
+    text-align: center;
+}
+
