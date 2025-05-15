@@ -8,7 +8,7 @@ h1 {
 .container-formularios a {
     text-decoration: none;
     color: black;
-    font-size: 80px;
+    font-size:60px;
 }
 
 .container-formularios {
@@ -16,8 +16,8 @@ h1 {
     background-color: #641293;
     border-radius: 20px;
     margin: 50px 100px 0px 100px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 60px;
+    padding-right: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,6 +44,7 @@ h1 {
     align-items: center;
     border: 3px solid black;
 }
+<<<<<<< HEAD
 
 .imagem{
     height: 400px;
@@ -86,3 +87,5 @@ ul{
     color: white;
     font-size: 20px;
 }
+=======
+>>>>>>> cb20bb59441665f71249b611af58e688a1c42bad
