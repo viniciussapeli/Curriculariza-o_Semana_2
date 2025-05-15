@@ -41,3 +41,12 @@
 p{
     margin: 10px;
 }
+ul{
+    margin: 15px;
+}
+.botao-form{
+    margin: 15px;
+    padding: 2px;
+    color: white;
+    font-size: 20px;
+}
