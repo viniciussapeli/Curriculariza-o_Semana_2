@@ -16,8 +16,8 @@ h1 {
     background-color: #641293;
     border-radius: 20px;
     margin: 50px 100px 0px 100px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
