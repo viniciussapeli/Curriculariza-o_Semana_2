@@ -1,5 +1,4 @@
 
-
 h1 {
     margin-top: 30px;
     text-align: center;
@@ -44,48 +43,4 @@ h1 {
     justify-content: center;
     align-items: center;
     border: 3px solid black;
-}
-
-.titulo{
-    background-color: #641293;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    margin: 50px;
-    border-radius: 20px;
-    height: 50px;
-    color: white;
-}
-
-.imagem{
-    height: 400px;
-    width: 300px;
-    margin: 50px;
-    border-radius: 20px;
-}
-
-.foto_e_historia{
-    background-color: #9549C0;
-    border-radius: 50px;
-    margin: 50px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.texto{
-    color: white;
-    align-items: normal;
-    margin-right: 75px;
-    text-align: justify;
-}
-
-
-.nomeAnimal{
-    margin-bottom: 50px;
-}
-
-p{
-    margin: 10px;
 }
