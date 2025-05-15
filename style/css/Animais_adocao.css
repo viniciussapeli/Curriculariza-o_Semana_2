@@ -1,0 +1,49 @@
+ @font-face {
+    font-family: 'Joan-Regular';
+    src: url(/style/css/fontes/Joan-Regular.ttf);
+}
+
+h1 {
+    text-align: center;
+    font-size: 120px;
+}
+
+.container-formularios a {
+    text-decoration: none;
+    color: black;
+    font-size: 80px;
+}
+
+.container-formularios {
+    height: 600px;
+    background-color: #641293;
+    border-radius: 20px;
+    margin: 50px 100px 0px 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.form-cachorro {
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.form-gato {
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+}
