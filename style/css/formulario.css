@@ -1,9 +1,8 @@
 .main-form{
-    margin: 0;
+    margin-left: 30%;
+    margin-right: 30%;
     padding: 0;
-    display: flex;
     justify-content: center;
-    border: 2px black solid;
 }
 .recadoDaCapra h1{
     text-align: center;
@@ -24,7 +23,6 @@
 fieldset div {
     padding-top: 10px;
     padding-bottom: 10px;
-    margin: 5px;
     justify-content: center;
     border: 2px solid black;
     border-radius: 20px;
@@ -32,7 +30,7 @@ fieldset div {
     flex-direction: column;
 }
 .inptext{
-    width: 50%;
+    width: 80%;
     padding: 5px;
 }
 .checkbox{
@@ -42,6 +40,7 @@ div input{
     font-size: 18px;
 }
 .fild2{
+    margin: 20px;
     display: flex;
     justify-content: center;
     text-align: center;
