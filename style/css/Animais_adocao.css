@@ -24,8 +24,8 @@ h1 {
 }
     
 .form-cachorro {
-    width: 500px;
-    height: 200px;
+    width: 40%;
+    height: 40%;
     background-color: white;
     border-radius: 20px;
     display: flex;
@@ -35,8 +35,8 @@ h1 {
 }
 
 .form-gato {
-    width: 500px;
-    height: 200px;
+    width: 40%;
+    height: 40%;
     background-color: white;
     border-radius: 20px;
     display: flex;
