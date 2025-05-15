@@ -46,16 +46,19 @@ margin: 0px 0px 10px 10px;
     border-radius: 10px;
     margin: 10px;
     width: 40%;
+    font-size: 40px;
 }
-
-.container-not-ad
-
-
 
 .container-not-ad a{
+    color: #ffffff;
     text-decoration: none;
-    color: white;
 }
 
+.container-not-ad .Noticias_redireção{
+text-align: center;
+}
 
+.container-not-ad .Animais_adotados{
+text-align: center;
+}
 
