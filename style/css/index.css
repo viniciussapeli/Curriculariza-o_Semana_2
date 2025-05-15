@@ -4,8 +4,20 @@
 }
 
 *{
+    margin: 0;
     font-family: 'Joan-Regular';
 }
+
+.Banner{
+    padding-top: 4px;
+    background-color: #4AC360;
+    text-align: center;
+}
+.Banner img{
+    border-radius: 10px;
+    height: 100%;
+}
+
 .container-3primeiros{
     margin: 10px;
 }
@@ -44,7 +56,7 @@ margin: 0px 0px 10px 10px;
     background-color:#9549C0;
     padding: 20px ;
     border-radius: 10px;
-    margin: 10px;
+    margin: 10px 10px 50px 10px;
     width: 40%;
     font-size: 40px;
 }
@@ -62,6 +74,20 @@ text-align: center;
 text-align: center;
 }
 
+.container-grafico{
+    text-align: center;
+}
 
+.container-grafico img{
+   border-radius: 10px;
+}
+
+.maus-tratos{
+    background-color: #4AC360;
+    padding: 20px ;
+    border-radius: 10px;
+    margin: 50px 10px 50px 10px;
+    color: white;
+}
 
 
