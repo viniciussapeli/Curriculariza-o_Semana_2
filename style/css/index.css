@@ -26,8 +26,9 @@
     background-color:#9549C0;
     padding: 20px ;
     border-radius: 10px;
-    margin: 10px;
+    margin: 50px 10% 50px 10%;
     color: #ffffff;
+    width: 80%;
 }
 
 .container-3primeiros div h1{
@@ -90,4 +91,19 @@ text-align: center;
     color: white;
 }
 
+.maus-tratos p{
+    margin-bottom: 10px;
+}
+
+.maus-tratos a{
+    padding: 7px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #641293;
+    border-radius: 10px;
+}
+
+.maus-tratos .saiba-mais{
+    text-align: center;
+}
 
