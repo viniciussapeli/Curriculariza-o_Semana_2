@@ -1,0 +1,15 @@
+main {
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+}
+h1{
+    padding: 10px;
+    font-size: 40px;
+}
+.imagemdoacao {
+    border-radius: 10px;
+}
+.qrcode {
+    width: 400px;
+}
