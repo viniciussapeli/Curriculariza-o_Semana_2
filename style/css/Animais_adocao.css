@@ -46,6 +46,18 @@ h1 {
     border: 3px solid black;
 }
 
+.titulo{
+    background-color: #641293;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin: 50px;
+    border-radius: 20px;
+    height: 50px;
+    color: white;
+}
+
 .imagem{
     height: 400px;
     width: 300px;
