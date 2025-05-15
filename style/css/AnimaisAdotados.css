@@ -1,5 +1,5 @@
 .titulo{
-    background-color: blueviolet;
+    background-color: #641293;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@
 }
 
 .foto_e_historia{
-    background-color: blueviolet;
+    background-color: #9549C0;
     border-radius: 50px;
     margin: 50px;
     display: flex;
