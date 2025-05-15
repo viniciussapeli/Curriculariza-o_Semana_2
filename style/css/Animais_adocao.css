@@ -44,3 +44,48 @@ h1 {
     align-items: center;
     border: 3px solid black;
 }
+<<<<<<< HEAD
+
+.imagem{
+    height: 400px;
+    width: 300px;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.foto_e_historia{
+    background-color: #9549C0;
+    border-radius: 50px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.texto{
+    color: white;
+    align-items: normal;
+    margin-right: 75px;
+    text-align: justify;
+}
+
+
+.nomeAnimal{
+    margin-bottom: 50px;
+}
+
+p{
+    margin: 10px;
+}
+ul{
+    margin: 15px;
+}
+.botao-form{
+
+    margin: 15px;
+    padding: 2px;
+    color: white;
+    font-size: 20px;
+}
+=======
+>>>>>>> cb20bb59441665f71249b611af58e688a1c42bad
