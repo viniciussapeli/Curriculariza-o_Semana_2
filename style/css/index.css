@@ -9,6 +9,7 @@
 }
 
 .Banner{
+    width: 100%;
     padding-top: 4px;
     background-color: #4AC360;
     text-align: center;
@@ -16,6 +17,7 @@
 .Banner img{
     border-radius: 10px;
     height: 100%;
+    width: 75%;
 }
 
 .container-3primeiros{
