@@ -12,6 +12,7 @@ h1{
     margin-left: 500px;
     margin-right: 500px;
     border-radius: 20px;
+    border: 2px solid black;
     height: 50px;
     color: white;
 }
@@ -39,4 +40,16 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.minitexto {
+    justify-content: center;
+    background-color: #641293;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 420px;
+    margin-right: 500px;
+    color: white;
+    font-size: 18px;
 }
