@@ -4,6 +4,9 @@
     padding: 0;
     justify-content: center;
 }
+form{
+    width: 100%;
+}
 .recadoDaCapra h1{
     text-align: center;
     padding: 10px;
