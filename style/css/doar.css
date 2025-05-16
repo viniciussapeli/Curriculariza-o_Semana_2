@@ -9,11 +9,11 @@ h1{
     justify-content: center;
     align-items: center;  
     margin: 40px;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 490px;
     border-radius: 20px;
     border: 2px solid black;
     height: 50px;
+    width: 25%;
     color: white;
 }
 .imagens {
@@ -42,6 +42,7 @@ h1{
     align-items: center;
 }
 .minitexto {
+    justify-items: center;
     justify-content: center;
     background-color: #641293;
     text-align: center;
