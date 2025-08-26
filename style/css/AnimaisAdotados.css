@@ -1,5 +1,5 @@
 .titulo{
-    background-color: #641293;
+    background-color: rgb(190, 79, 190);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -7,7 +7,7 @@
     margin: 50px;
     border-radius: 20px;
     height: 50px;
-    color: white;
+    color: rgb(80, 23, 80);
 }
 
 .imagem{
@@ -18,7 +18,7 @@
 }
 
 .foto_e_historia{
-    background-color: #9549C0;
+    background-color: rgb(35, 168, 185);
     border-radius: 50px;
     margin: 50px;
     display: flex;
