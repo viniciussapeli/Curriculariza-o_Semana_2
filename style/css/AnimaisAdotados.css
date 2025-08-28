@@ -56,13 +56,17 @@ p{
 ul{
     margin: 15px;
 }
+
 .botao-form{
-    margin: 15px;
-    padding: 2px;
+    border-radius: 15px;
+    text-decoration: none;
+    margin:15px;
+    padding: 5px;
     color: white;
     font-size: 20px;
 }
 
 .filtros{
     margin-left: 5%;
+    background-color: rgb(190, 79, 190);
 }
