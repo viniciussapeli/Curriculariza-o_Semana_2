@@ -4,14 +4,17 @@ main {
       background: #fff;
       text-align: center;
       padding: 20px;
-    }
+      }
 
     .titulo {
-      font-size: 3em;
-      font-weight: bold;
-      text-shadow: 2px 2px 4px #ccc;
-      text-decoration: underline;
-      margin-bottom: 40px;
+      display: flex;
+      justify-self: center;
+      justify-content: center;
+      background-color: #9549C0;
+      width:30%;
+      border-radius: 30px;
+      font-size: 2em;
+      color: white;
     }
 
     .noticias {
