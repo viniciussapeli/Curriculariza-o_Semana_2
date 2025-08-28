@@ -1,21 +1,34 @@
 
-const filterItems = document.querySelectorAll('.filtro-item');
-const animais = document.querySelectorAll('.lista-animais .animal');
+const filtros = {
+  porte: 'todos',
+  idade: 'todos'
+};
 
-filterItems.forEach(item => {
-    item.addEventListener('click', () => {
-        // Remove active dos filtros
-        filterItems.forEach(i => i.classList.remove('active'));
-        item.classList.add('active');
+function aplicarFiltros() {
+  const animais = document.querySelectorAll('.lista-animais .animal');
+  
+  animais.forEach(animal => {
+    const matchPorte = filtros.porte === 'todos' || animal.classList.contains(filtros.porte);
+    const matchIdade = filtros.idade === 'todos' || animal.classList.contains(filtros.idade);
 
-        const filter = item.getAttribute('data-filter');
+    animal.style.display = (matchPorte && matchIdade) ? '' : 'none';
+  });
+}
 
-        animais.forEach(animal => {
-            if(filter === 'todos') {
-                animal.style.display = 'block';
-            } else {
-                animal.style.display = animal.classList.contains(filter) ? 'block' : 'none';
-            }
-        });
-    });
+document.querySelectorAll('.filtro-porte .filtro-item').forEach(item => {
+  item.addEventListener('click', () => {
+    item.parentElement.querySelectorAll('.filtro-item').forEach(i => i.classList.remove('active'));
+    item.classList.add('active');
+    filtros.porte = item.dataset.filter;
+    aplicarFiltros();
+  });
+});
+
+document.querySelectorAll('.filtro-idade .filtro-item').forEach(item => {
+  item.addEventListener('click', () => {
+    item.parentElement.querySelectorAll('.filtro-item').forEach(i => i.classList.remove('active'));
+    item.classList.add('active');
+    filtros.idade = item.dataset.filter;
+    aplicarFiltros();
+  });
 });
