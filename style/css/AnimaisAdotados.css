@@ -11,31 +11,43 @@
 }
 
 .imagem{
-    height: 400px;
-    width: 300px;
-    margin: 50px;
+    height: 100%;
+    width: 20%;
+    margin: 20px;
     border-radius: 20px;
 }
 
 .foto_e_historia{
     background-color: rgb(35, 168, 185);
+    width: 70%;
     border-radius: 50px;
-    margin: 50px;
+    margin: 2%;
     display: flex;
     align-items: center;
+    gap: 20px;
+}
+
+.foto_e_historia2{
+    background-color: rgb(35, 168, 185);
+    width: 70%;
+    border-radius: 50px;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    float: right;
     gap: 20px;
 }
 
 .texto{
     color: white;
     align-items: normal;
-    margin-right: 75px;
+    margin-right: 10px;
     text-align: justify;
 }
 
 
 .nomeAnimal{
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 p{
