@@ -1,31 +1,31 @@
 main {
-    justify-content: space-between;
-    padding: 10px;
+    margin: 2%;
+    justify-items: center;
+    align-items: center;
 }
-h1{
+h1{ 
     background-color: rgb(190, 79, 190);
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;  
-    margin: 40px;
-    margin-left: 490px;
     border-radius: 20px;
     border: 2px solid black;
     height: 50px;
     width: 25%;
-    color: rgb(80, 23, 80);
+    color: rgb(0, 0, 0);
+    margin-bottom: 2%;
 }
 .imagens {
-    height: 600px;
+    height: 80%;
     border-radius: 20px;
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .imagemdoacao {
+    margin-right: 5px;
     background-color: white;
     border-radius: 20px;
     display: flex;
@@ -34,6 +34,7 @@ h1{
     border: 2px solid black;
 }
 .qrcode {
+    margin-left: 5px;
     height: 400px;
     width: 400px;
     background-color: white;
@@ -42,6 +43,7 @@ h1{
     align-items: center;
 }
 .minitexto {
+    margin-top: 2%;
     justify-items: center;
     justify-content: center;
     background-color: rgb(190, 79, 190);
@@ -49,8 +51,6 @@ h1{
     border: 2px solid black;
     border-radius: 10px;
     width: 500px;
-    margin-left: 420px;
-    margin-right: 500px;
     color: rgb(80, 23, 80);
     font-size: 18px;
 }
