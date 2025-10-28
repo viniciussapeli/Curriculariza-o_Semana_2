@@ -5,3 +5,13 @@
 body{
     font-size: 16px;
 }
+footer{
+    background-color: rgb(190, 79, 190);
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    align-items: center;
+}
+.footerGeral{
+    padding: 10px;
+}
