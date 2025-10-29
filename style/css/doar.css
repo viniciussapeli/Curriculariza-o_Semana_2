@@ -4,7 +4,7 @@ main {
     align-items: center;
 }
 h1{ 
-    background-color: rgb(190, 79, 190);
+    background-color: hsl(64, 41%, 71%);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -46,11 +46,11 @@ h1{
     margin-top: 2%;
     justify-items: center;
     justify-content: center;
-    background-color: rgb(190, 79, 190);
+    background-color: hsl(64, 41%, 71%);
     text-align: center;
     border: 2px solid black;
     border-radius: 10px;
     width: 500px;
-    color: rgb(80, 23, 80);
+    color: black;
     font-size: 18px;
 }

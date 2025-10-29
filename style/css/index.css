@@ -11,7 +11,7 @@
 .Banner{
     width: 100%;
     padding-top: 4px;
-    background-color: #4AC360;
+    background-color: #7c867f;
     text-align: center;
 }
 .Banner img{
@@ -25,7 +25,7 @@
 }
 
 .container-3primeiros div{
-    background-color:#9549C0;
+    background-color:hsl(64, 41%, 71%);
     padding: 20px ;
     border-radius: 10px;
     margin: 50px 10% 50px 10%;
@@ -38,7 +38,8 @@ margin: 0px 0px 10px 10px;
 }
 
 .container_sobre{
-    background-color: #641293;
+    background-color: hsl(64, 41%, 71%);
+    padding: 20px ;
     padding: 20px ;
     border-radius: 10px;
     margin: 50px 10px 50px 10px;
@@ -56,7 +57,7 @@ margin: 0px 0px 10px 10px;
 
 .container-not-ad div{
     flex-direction: row ;
-    background-color:#9549C0;
+    background-color:rgb(101, 145, 97);
     padding: 20px ;
     border-radius: 10px;
     margin: 10px 10px 50px 10px;
@@ -86,7 +87,7 @@ text-align: center;
 }
 
 .maus-tratos{
-    background-color: #4AC360;
+    background-color:  #7c867f;
     padding: 20px ;
     border-radius: 10px;
     margin: 50px 10px 50px 10px;
