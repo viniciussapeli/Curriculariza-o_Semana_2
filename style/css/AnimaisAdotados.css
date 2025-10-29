@@ -1,5 +1,5 @@
 .titulo{
-    background-color: rgb(190, 79, 190);
+    background-color: hsl(64, 41%, 71%);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -7,7 +7,7 @@
     margin: 50px;
     border-radius: 20px;
     height: 50px;
-    color: rgb(80, 23, 80);
+    color: black;
 }
 
 .imagem{
@@ -73,7 +73,7 @@ ul{
     padding-left: 2%;
     display: flex;
     align-items: center;
-    background-color: rgb(190, 79, 190) ;
+    background-color: rgb(101, 145, 97);
     border-radius: 20px;
     width: 40%;
 }
